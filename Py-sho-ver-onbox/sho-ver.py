@@ -24,10 +24,11 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 #
-# This script is designed to run on the network element itself. It runs a 
+# This script is designed to run on the network element itself. It runs a
 # single exec command .. "show version"
 
 #!/usr/bin/python
 
 import cli
 print cli.execute('show version')
+#test
